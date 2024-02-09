@@ -1,10 +1,6 @@
 import { List } from '../feedback/container';
 
-export const Statistics = ({
-  state: { good, neutral, bad },
-  total,
-  positive,
-}) => {
+export const Statistics = ({ good, neutral, bad, total, positive }) => {
   return (
     <>
       <List>
